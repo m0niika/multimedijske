@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@font-face {
+    font-family: "MonikaFont";
+    src: url("MonikaMarkanovic-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "CabinSketch";
+    src: url("CabinSketch-Regular.ttf") format("truetype");
+}
+
+
+body {
+    background-color: #f5f5dc; 
+    background-image: url("pozadina.jpg");
+    font-family: "Montserrat", sans-serif;
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    overflow: auto; 
+}
+
+h1 {
+    text-align: center;
+    color: #8b4513; 
+    font-family: "MonikaFont", sans-serif; 
+}
+
+h2 {
+    text-align: center;
+    color: #8b4513; 
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none; 
+    display: flex; 
+    gap: 10px; 
+} 
+
+li {
+    background-color: #f4a460; 
+    padding: 20px;
+    border: 2px solid #d2b48c;
+}
